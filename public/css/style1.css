@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  display: flex;
+  background: light;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  border: 1px solid black;
+  width: 200px;
+  height: 240px;
+  box-shadow: 5px 5px;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 0.6em;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-top: -5px;
+}
+
+img {
+  width: 200px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.buttons a i{
+  position: absolute;
+  right: 85;
+  top: 0;
+  color: #0000FF;
+}
